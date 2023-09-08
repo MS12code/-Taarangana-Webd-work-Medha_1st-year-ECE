@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color:#abbbc2;
+    margin: 0;
+    padding: 0;
+}
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire viewport */
+    z-index: -1; /* Place the video behind other elements */
+}
+
+
+/* CSS for the navigation bar */
+nav {
+    background-color: #170632;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: inline;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #000000;
+}
+
+/* Rest of your CSS styles */
+/* ... */
+
+
+header {
+    background-color: #0a2953;
+    color: #fffbfbef;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #4c228f;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.event {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 2px solid #780202;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.event h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-top: 0;
+}
+
+.event p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.event-form input[type="text"],
+.event-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.event-form input[type="submit"] {
+    background-color: #064914;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.event-form input[type="submit"]:hover {
+    background-color: #ff4d4d;
+}
+
+/* Add hover effect for events */
+.event:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+/* Add alternating background colors for events */
+.event:nth-child(even) {
+    background-color: #ffec40;
+}
+
+.event:nth-child(odd) {
+    background-color: #ffdb4d;
+}

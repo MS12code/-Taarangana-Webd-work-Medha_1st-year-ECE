@@ -11,12 +11,12 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ensure the video covers the entire viewport */
-    z-index: -1; /* Place the video behind other elements */
+    object-fit: cover; 
+    z-index: -1; 
 }
 
 
-/* CSS for the navigation bar */
+
 nav {
     background-color: #170632;
     overflow: hidden;
@@ -48,8 +48,6 @@ nav li a:hover {
     background-color: #000000;
 }
 
-/* Rest of your CSS styles */
-/* ... */
 
 
 header {
@@ -117,13 +115,13 @@ header {
     background-color: #ff4d4d;
 }
 
-/* Add hover effect for events */
+
 .event:hover {
     transform: scale(1.02);
     transition: transform 0.3s ease;
 }
 
-/* Add alternating background colors for events */
+
 .event:nth-child(even) {
     background-color: #ffec40;
 }
